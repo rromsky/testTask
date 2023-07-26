@@ -18,7 +18,7 @@ export class PasswordStrengthComponent implements OnInit {
       this.passwordStrength = 0;
       this.textIndicator = 'Empty';
       return;
-    } else if (this.password.length <= 8) {
+    } else if (this.password.length < 8) {
       this.passwordStrength = -1;
       this.textIndicator = 'Less then 8 symbols';
       return;
