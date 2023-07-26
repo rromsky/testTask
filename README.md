@@ -1,4 +1,13 @@
-# TestTask
+# Password Quality Checker (Angular)
+
+The test task was performed using Angular, a simple form for checking the password for quality.
+
+App brief information: 
+If the password is less than 8 characters, the indicators are red. 
+If the password contains only letters or numbers or symbols - 1 indicator is red, the rest are gray. 
+If contains 2 data types - characters/numbers or symbols/letters or letters/numbers - 2 indicators are yellow, the last one is gray. 
+If it contains letters/numbers/symbols together, the indicators are green. 
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.5.
 
